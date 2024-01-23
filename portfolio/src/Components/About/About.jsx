@@ -3,7 +3,7 @@ import Animation from "../Animation/Animation"
 import "./about.css"
 
 export default function About() {
-    const pdf = "http://localhost:3000/Reem CV.pdf"
+    const pdf = "/Reem CV.pdf"
     const download =(url)=>{
       const aTag = document.createElement("a")
       aTag.href=url
