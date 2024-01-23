@@ -34,18 +34,18 @@ export default function Navbar() {
         {
           isOpen &&
           <div className="navbar-icon-mobile" isOpen={isOpen}>
-            <Link className="navbar-icon-mobile-link" href="#about" onClick={() => {
+            <a className="navbar-icon-mobile-link" href="#about" onClick={() => {
               setIsOpen(!isOpen)
-            }}>About</Link>
-            <Link className="navbar-icon-mobile-link" href='#skills' onClick={() => {
+            }}>About</a>
+            <a className="navbar-icon-mobile-link" href='#skills' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Skills</Link>
-            <Link className="navbar-icon-mobile-link" href='#projects' onClick={() => {
+            }}>Skills</a>
+            <a className="navbar-icon-mobile-link" href='#projects' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projects</Link>
-            <Link className="navbar-icon-mobile-link" href='#contact' onClick={() => {
+            }}>Projects</a>
+            <a className="navbar-icon-mobile-link" href='#contact' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Contact</Link>
+            }}>Contact</a>
               <a className="button-container-github"  href="https://github.com/ReemElhusseiny" style={{padding: '10px 16px',background: "#854CE6", color: 'white',width: 'max-content'}}> Github Profile</a> 
           </div>
         }
