@@ -1,5 +1,11 @@
 import React  from 'react'
+import { motion  } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import "./skills.css"
+export default function Skills() {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
 export default function Skills() {
 
   
@@ -78,7 +84,7 @@ export default function Skills() {
           ],
         },
     ]
-  return (
+ return (
     <div>
         <div className="skills" id="skills">
       <div className="skills-wrapper">
@@ -87,7 +93,12 @@ export default function Skills() {
         </p>
         <div className="skills-container" >
           {skills.map((skill,index) => (
-            <div className={`skill-box box-transition-${index}`} key={index}  >
+                              <motion.div
+                              ref={ref}
+                    initial={{ opacity: 0, x: index % 2 === 0 ? -150 : 150 }}
+                    animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? -100 : 100 }}
+                    transition={{ duration: 2, delay: index * 0.2 }}
+                      className={`skill-box box-transition-${index}`}  key={index}>
               <p className="skill-box-title">{skill.title}</p>
               <div className="skill-box-list">
                 {skill.skills.map((item) => (
@@ -97,7 +108,7 @@ export default function Skills() {
                   </div>
                 ))}
               </div>
-            </div>
+            </motion.div>
           ))}
 
         </div>
