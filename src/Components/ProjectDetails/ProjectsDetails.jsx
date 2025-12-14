@@ -56,6 +56,14 @@ export default function ProjectsDetails({ openModal, setOpenModal }) {
                     <img style={{cursor: 'pointer'}} onClick={ () => handleClick('cards.png')} src='cards.png' alt='' width='50px' height='50px'/>
                     <img style={{cursor: 'pointer'}} onClick={ () => handleClick('1.png')} src='1.png' alt='' width='50px' height='50px'/>
 
+                 </div> : project.title === 'Interviewer website' ? <div style={{ display: 'flex', gap: '10px'}}>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('HomeInterviwer.png')} src='HomeInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}}  onClick={() => handleClick('callSetupInterviwer.png')} src='callSetupInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('callInterviwer.png')} src='callInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('scheduleInterviwer.png')} src='scheduleInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('scheduleFormInterviwer.png')} src='scheduleFormInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('recordingsInterviwer.png')} src='recordingsInterviwer.png' alt='' width='50px' height='50px'/>
+
                  </div> : ''}
                     <div  className="modal-buttonsgroup">
                         { project.title === 'Admin Dashboard' || project.title === 'Dashboard' ? <a className="modal-button">View Code</a> : <a className="modal-button"  href={project?.github} target='new'>View Code</a>}

@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "Interviewer website",
+    description: "This website allows interviewers to schedule and manage interviews, conduct live video and audio calls, and record interview sessions. It also enables candidates to solve coding questions in a VS Code–like environment while the interviewer watches in real time. All interview sessions and coding activities can be securely recorded and replayed for later review. The platform ensures a smooth and reliable interview experience for both interviewers and candidates.",
+    image:
+      "/HomeInterviwer.png",
+    tags: [
+      "Next.js",
+      "Tailwind",
+      'Convex',
+      'Clerk',
+    ],
+    github: "https://github.com/ReemElhusseiny/Interviewer-website.git",
+    website: "#",
+  },
+  {
     title: "Dashboard",
     description:
       'This freelance dashboard project features a fully responsive user interface designed to manage and visualize data effectively. Utilizing HTML, CSS, and Bootstrap, the dashboard implements a clean and modern UI that allows users to easily navigate through various functionalities. It includes tables that display essential data, filtering and search capabilities, ensuring that users can quickly find the information they need ',

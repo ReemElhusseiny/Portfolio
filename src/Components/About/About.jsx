@@ -4,7 +4,7 @@ import Animation from "../Animation/Animation"
 import "./about.css"
 
 export default function About() {
-    const pdf = "/Reem CV.pdf"
+    const pdf = "/ReemElhusseiny.pdf"
     const download =(url)=>{
       const aTag = document.createElement("a")
       aTag.href=url
