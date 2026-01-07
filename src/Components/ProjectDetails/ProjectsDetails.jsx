@@ -58,6 +58,8 @@ export default function ProjectsDetails({ openModal, setOpenModal }) {
 
                  </div> : project.title === 'Interviewer website' ? <div style={{ display: 'flex', gap: '10px'}}>
                     <img style={{cursor: 'pointer'}} onClick={ () => handleClick('HomeInterviwer.png')} src='HomeInterviwer.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('signUp.png')} src='signUp.png' alt='' width='50px' height='50px'/>
+                    <img style={{cursor: 'pointer'}} onClick={ () => handleClick('services.png')} src='services.png' alt='' width='50px' height='50px'/>
                     <img style={{cursor: 'pointer'}}  onClick={() => handleClick('callSetupInterviwer.png')} src='callSetupInterviwer.png' alt='' width='50px' height='50px'/>
                     <img style={{cursor: 'pointer'}} onClick={ () => handleClick('callInterviwer.png')} src='callInterviwer.png' alt='' width='50px' height='50px'/>
                     <img style={{cursor: 'pointer'}} onClick={ () => handleClick('scheduleInterviwer.png')} src='scheduleInterviwer.png' alt='' width='50px' height='50px'/>
