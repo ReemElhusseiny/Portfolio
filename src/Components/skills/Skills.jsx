@@ -1,4 +1,4 @@
-import React , {useEffect,useRef} from 'react'
+import React from 'react'
 import { motion  } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import "./skills.css"
@@ -103,7 +103,7 @@ export default function Skills() {
               <div className="skill-box-list">
                 {skill.skills.map((item) => (
                   <div className="skill-box-items">
-                    <img className="skill-box-img" src={item.image}/>
+                    <img alt="img" className="skill-box-img" src={item.image}/>
                     {item.name}
                   </div>
                 ))}

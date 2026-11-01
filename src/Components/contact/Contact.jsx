@@ -1,9 +1,9 @@
-import React , {useRef, useState, useEffect} from 'react'
+import React , {useRef, useState} from 'react'
 import "./contact.css"
 import emailjs from '@emailjs/browser';
 export default function Contact() {
 const form = useRef();
-    const message = useRef(" ");
+    // const message = useRef(" ");
   
   
     const [error , setError]= useState (false)
