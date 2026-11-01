@@ -1,7 +1,6 @@
 import React  from 'react'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
-import {Link } from 'react-router-dom'
 import "./navbar.css"
 export default function Navbar() {
     const [isOpen, setIsOpen] = React.useState(false);

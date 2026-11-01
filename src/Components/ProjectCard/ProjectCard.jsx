@@ -7,7 +7,7 @@ export default function ProjectCard({project , setOpenModal }) {
     <div>
       
     <div className="cards" onClick={() => setOpenModal({state: true, project: project })} >
-          <img className="cards-image" src={project.image}/>
+          <img alt="img" className="cards-image" src={project.image}/>
           <div className="cards-tags">
               {project.tags?.map((tag, index) => (
               <div className="cards-tags-name">{tag}</div>
