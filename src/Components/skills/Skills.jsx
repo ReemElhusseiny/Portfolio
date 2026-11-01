@@ -1,7 +1,7 @@
-import React from 'react'
 import { motion  } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import "./skills.css"
+
 export default function Skills() {
   const [ref, inView] = useInView({
     triggerOnce: true,

@@ -63,7 +63,7 @@ This allows you to:
     tags: [
       "Html",
       "Css",
-      'Bootstap'
+      'Bootstap',
     ],
     github: "",
     website: "#",
