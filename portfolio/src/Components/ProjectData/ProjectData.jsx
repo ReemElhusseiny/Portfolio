@@ -13,12 +13,12 @@ export const projects = [
         "Emailjs"  ,
       ],
       github: "https://github.com/ReemElhusseiny/Portfolio",
-      website: #",
+      website: "#",
     },
     {
       title: "Paintings e-commerce",
       description:
-      "Designed and developed a full-stack website that offers a comprehensive set of features to enhance user experience. The website allows users to create accounts and log in using JSON Web Tokens (JWT). Additionally, it incorporates email verification system to ensure account authenticity , users can easily find desired products or items by search and  add products to their cart and wishlist. users can make payments using either cash or Visa by stripe ,",
+      "Designed and developed a full-stack website that offers a comprehensive set of features to enhance user experience. The website allows users to create accounts and log in using JSON Web Tokens (JWT). Additionally, it incorporates email verification system to ensure account authenticity , users can easily find desired products or items by search and  add products to their cart and wishlist. users can make payments using either cash or Visa by stripe",
       image:
         "./paintings.png",
       tags: ["Html", "CSS" ,"React Js", "React-router-dom", "Axios", "React Hooks", "Django" , "PostgresSql","jwt", "Stripe payments"],

@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from "react"
 import Navbar from "./Components/Navbar/Navbar"
 import About from "./Components/About/About"
-import Skills from "./Components/skills/Skills"
+import Skills from "./Components/Skills/Skills"
 import Contact from "./Components/contact/Contact"
 import Projects from "./Components/Projects/Projects"
 import ProjectsDetails  from "./Components/ProjectDetails/ProjectsDetails"

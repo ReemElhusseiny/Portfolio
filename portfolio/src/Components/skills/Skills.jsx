@@ -6,10 +6,8 @@ export default function Skills() {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
-export default function Skills() {
 
   
-
     const skills = [
       
         {
